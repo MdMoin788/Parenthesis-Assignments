@@ -1,0 +1,39 @@
+.ListItem {
+    width: 90%;
+    height: auto;
+    /* border: 1px solid gray; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.ListItemDetail {
+    width: 32%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+.ListItemImg {
+    width: 100%;
+    height: 65%;
+
+}
+
+.ListItemImgP {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.listRate{
+    text-align: right;
+}
+.listCont{
+margin-top: -10px;
+}
+

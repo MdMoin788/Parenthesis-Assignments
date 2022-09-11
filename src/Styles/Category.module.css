@@ -1,0 +1,25 @@
+.Category {
+    width: 90%;
+    height: 60px;
+    /* border: 1px solid gray; */
+    margin: auto;
+    display: flex;
+}
+.CategorySection {
+    background-color: transparent;
+    border: transparent;
+    line-height: 0%;
+    width: 33.3%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.CategorySectionImg {
+
+    width: 30px;
+}

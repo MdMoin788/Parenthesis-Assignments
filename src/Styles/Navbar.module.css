@@ -1,0 +1,98 @@
+.Navbar{
+    width: 100%;
+    height: 90px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 1px solid rgb(235, 235, 235);
+    margin-bottom: 30px;
+}
+.Nav{
+    width: 89%;
+    margin: auto;
+    height: 95%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    color: red;
+    font-size: 25px;
+}
+.middleNavbar{
+    width: 33.3%;
+}
+.navbarLeft{
+    text-align: left;
+
+    width: 33.3%;
+}
+.rightNavbar{
+    width: 33.3%;
+}
+.rightNavbarSign{
+    width: 12.3%;
+    display: flex;
+   height: 20px;
+   border-radius:50px;
+    justify-content: center;
+    align-content: center;
+padding: 5px;
+    gap: 10px;
+    box-shadow: rgba(119, 119, 119, 0.818) 0px 3px 8px;
+
+}
+.middleNav{
+    width: 100%;
+    height: 50px;
+    box-shadow: rgba(119, 119, 119, 0.818) 0px 3px 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    border-radius:50px;
+}
+.rightNavbar{
+   text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 30px;
+}
+
+.middleNavBtn{
+    width: 25%;
+    height: 90%;
+    border: transparent;
+    background-color: transparent;
+    font-size: 17px;
+}
+
+.middleNavBtnHid{
+    box-shadow: rgba(119, 119, 119, 0.818) 0px 3px 8px;
+border: transparent;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border-radius: 50px;
+    font-size: 17px;
+}
+
+.middleNavBtnToggle{
+    margin-top: 550px;
+}
+
+.dat{
+    width: 700px;
+    height: 1000px;
+    z-index: 999;
+
+}
+.searchBopx{
+    z-index: 1000;
+
+    display: flex;
+    margin-right: -735px;
+
+}
